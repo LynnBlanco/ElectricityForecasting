@@ -56,9 +56,9 @@ Environment: ```Python 3.7.13``` </br>
 
 - Install ```requirements.txt```
 ```
-$ python3 -m pip install -r requirements.txt
+$ python -m pip install -r requirements.txt
 ```
 - Execute ```app.py```
 ```
-$ python3 app.py --training training_data.csv --output submission.csv
+$ python app.py --training training_data.csv --output submission.csv
 ```
